@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('fondo2.jpg');
+	background-size: cover;
+}
+
+
+.box {
+	width: 750px;
+	background: rgba(61, 45, 110, 0.4);
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 90px;
+	color: rgb(21, 61, 55);
+	text-align: center;
+    border-radius: 150px;
+    border: 2px solid rgb(71, 88, 104);
+
+}
+
+.boton-ingreso, .boton-registro{
+    background-color: rgb(176, 191, 211);
+    color: rgb(79, 18, 73);
+    padding: 1%;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+}
+
+.campo-usuario, .campo-contrasenia{
+    background-color: rgb(153, 180, 202);
+    padding: 1%;
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.olvidaste-contrasenia{
+    color: aliceblue;
+}
+
+
+.box p {
+	text-align: justify;; 
+}
+

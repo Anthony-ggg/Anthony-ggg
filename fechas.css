@@ -1,0 +1,39 @@
+/**
+ * calendar icon
+ */
+
+
+ body{font-size:2em;}
+
+
+ .calendar{
+     position: relative;
+     width: 2em;
+     height: 1.5em;
+     margin: 30% auto;
+     box-shadow:0 0 0 .2em black,0 -.3em 0 .2em black;
+ }
+ 
+ :before,
+ :after{
+   content:"";
+     position: absolute;
+   background:black;
+ }
+ .calendar:after{
+     left:.23em;
+     top:.3em;
+     width: .35em;
+     height: .35em;
+     box-shadow:.6em 0 0 black,1.2em 0 0 black,
+     0 .5em 0 black,.6em .5em 0 black,1.2em .5em 0 black;
+ }
+ .calendar:before{
+     left:.15em;
+     top:-.8em;
+     width: .2em;
+     height: .5em;
+     border-radius:.2em;
+     box-shadow:0 0 0 .1em white,1.55em 0 0 .02em black
+     ,1.55em 0 0 .1em white;
+ }
